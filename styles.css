@@ -1,0 +1,19 @@
+
+body{
+    background-color: #E5E5E5;
+}
+nav{
+    
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    
+    
+    nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    
+}
