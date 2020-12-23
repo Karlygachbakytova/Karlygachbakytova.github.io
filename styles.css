@@ -13,7 +13,15 @@ nav{
     
     nav ul{
         list-style-type: none;
-        padding: 0;
-        margin: 0;
+       
     
+}
+nav a{
+    text-decoration: none;
+    color: red;
+}
+
+
+nav ul li{
+    display: inline;
 }
