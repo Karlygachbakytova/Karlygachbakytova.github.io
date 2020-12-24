@@ -175,6 +175,7 @@ color: #666666;
     color: white;
   display: flex;
   align-content: center;
+  margin-top: 100px ;
 }
 
 
@@ -195,9 +196,9 @@ color: #666666;
     width: 540px;
     display: flex;
     flex-direction: column;
-  align-items: center;
-  padding-top: 130px;
-  text-align: center;
+  align-items: flex-start;
+ 
+  text-align: left;
  margin: auto;
   
 }
