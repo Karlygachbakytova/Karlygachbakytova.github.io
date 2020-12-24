@@ -35,7 +35,7 @@ nav ul li{
     display: inline;
 }
 
-button{
+.btn-1{
     height: 40px;
     padding-top: 20px;
     font-family: 'Karla', sans-serif;
@@ -105,12 +105,53 @@ padding-right: 37px;
 padding-left: 12px;
 padding-bottom: 10px;
 color: #878B90;
+height: 30px;
+border: #FFFFFF;
 }
-form{
-    background: #FFFFFF;
-border-radius: 3px;
 
+.btn-2{
+    height: 50px;
+    width: 150px;
+    font-family: 'Karla', sans-serif;
+    
+text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.5px;
+    color: #FFFFFF;
+    border-color: #FC593B ;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #FC593B;
+  
 }
+section{
+    display: flex;
+    flex-direction: row;
+
+   
+}
+section h4{
+    font-family: 'Karla', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 32px;
+letter-spacing: -1px;
+color: #000000;
+}
+section p{
+    font-family: Karla;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 28px;
+color: #666666;
+}
+
+
+
 .list-2{
     
     height: 895px;
@@ -126,6 +167,7 @@ border-radius: 3px;
    display: flex; 
    flex-direction: column;
    align-content: center;
+   justify-content: center;
 }
 img{
     padding-left: 211px;
