@@ -22,6 +22,7 @@ nav a{
     font-size: 16px;
     line-height: 19px;
     color: #1F1F1F;
+    font-weight: 400;
     text-decoration: none;
 
 }
@@ -55,7 +56,7 @@ button{
 }
 
 .logo{
- padding-left: 200px;
+
 height: 30px;
 font-family: 'Karla', sans-serif;
 font-size: 25px;
@@ -66,9 +67,8 @@ color: #1F1F1F;
 .content-1{
     display: flex;
     flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
-    
+  
 }
 .name-1{
 
