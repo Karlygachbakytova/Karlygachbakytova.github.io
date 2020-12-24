@@ -65,27 +65,33 @@ color: #1F1F1F;
 
 }
 .content-1{
+    width: 350px;
     display: flex;
     flex-direction: column;
   align-items: center;
+  padding-top: 130px;
+  text-align: center;
+ margin: auto;
   
 }
 .name-1{
 
     font-family: 'Karla', sans-serif;
-    max-width: 307px;
+    font-weight: bold;
     font-size: 35px;
 }
 .text-1{
-    max-width: 225px;
-   
+   font-weight: bold;
+   line-height: 18px;
+   color: #666666;
     font-size: 15px;
     font-family: 'Karla', sans-serif;
 }
 .text-2{
     font-family: 'Karla', sans-serif;
-   max-width: 273px;
     font-size: 21px;
+    line-height: 36px;
+    color: #666666;
 }
 .list-2{
     
