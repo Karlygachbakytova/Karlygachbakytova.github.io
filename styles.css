@@ -3,7 +3,7 @@
 body{
     width: 100%;
     overflow-x:hidden;
-    background: #E5E5E5;
+    background: #E3EEF8;
     height: 5640px;}
 header{
     display: flex;
@@ -79,10 +79,11 @@ color: #1F1F1F;
     font-family: 'Karla', sans-serif;
     font-weight: bold;
     font-size: 35px;
+    line-height: 35px;
 }
 .text-1{
    font-weight: bold;
-   line-height: 18px;
+   line-height: 9px;
    color: #666666;
     font-size: 15px;
     font-family: 'Karla', sans-serif;
@@ -90,7 +91,7 @@ color: #1F1F1F;
 .text-2{
     font-family: 'Karla', sans-serif;
     font-size: 21px;
-    line-height: 36px;
+    line-height: 18px;
     color: #666666;
 }
 .list-2{
