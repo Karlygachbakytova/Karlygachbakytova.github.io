@@ -166,11 +166,10 @@ color: #666666;
 .list-2{
     
     height: 895px;
-    width: 840px;
+    width: 100%;
     background-color: #258AFF;
     color: white;
-    position: relative;
-    top: 710px;
+   
     
     
 }
