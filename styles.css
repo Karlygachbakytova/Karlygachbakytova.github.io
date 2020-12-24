@@ -162,7 +162,10 @@ color: #666666;
 .icon, h4{
     display: inline;
 }
-
+.shades{
+    padding-left: 250px;
+    
+}
 
 .list-2{
     
@@ -170,27 +173,17 @@ color: #666666;
     width: 100%;
     background-color: #258AFF;
     color: white;
-   margin-top: 100px;
-    
-    
+  display: flex;
+  align-content: center;
 }
+
+
 .content-2{
-   display: flex; 
-   flex-direction: column;
-   align-content: center;
-   justify-content: center;
-}
-.shades{
-    padding-left: 211px;
-    
-}
-.text-3{
-    
+    display: flex;
+    flex-direction: column;
 
 }
-.text-4{
-    
-}
-.name-2{
-    
+.phone{
+    padding-left: 150px;
+    float: left;
 }
