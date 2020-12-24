@@ -126,10 +126,19 @@ text-align: center;
     background-color: #FC593B;
   
 }
+.description{
+    font-family: 'Karla', sans-serif;
+font-size: 17px;
+line-height: 20px;
+text-align: center;
+letter-spacing: -0.32381px;
+color: #878B90;
+padding-top: 15px;
+}
 section{
     display: flex;
     flex-direction: row;
-
+padding-top: 250px;
    
 }
 section h4{
@@ -149,7 +158,9 @@ font-size: 17px;
 line-height: 28px;
 color: #666666;
 }
-
+.icon, h4{
+    display: inline;
+}
 
 
 .list-2{
@@ -169,7 +180,7 @@ color: #666666;
    align-content: center;
    justify-content: center;
 }
-img{
+.shades{
     padding-left: 211px;
     
 }
