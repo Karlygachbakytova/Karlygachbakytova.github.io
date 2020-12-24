@@ -187,20 +187,23 @@ color: #666666;
 .phone{
     padding-left: 150px;
     float: left;
+    height: 600px;
 }
 .list-3{
     width: 100%;
     height: 964px;
+    padding-left: 200px;
+    padding-top: 100px;
+    
+    
 }
 .content-3{
     width: 540px;
     display: flex;
     flex-direction: column;
-  align-items: flex-start;
- 
   text-align: left;
- margin: auto;
  max-width: 480px;
+ 
   
 }
 .name-3{
@@ -224,4 +227,10 @@ color: #666666;
     font-size: 18px;
     line-height: 18px;
     color: #666666;
+}
+.corn{
+  float: right; 
+  padding-right: 300px;
+  height: 600px;
+  padding-top: 100px;
 }
