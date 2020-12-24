@@ -5,12 +5,16 @@ body{
     overflow-x:hidden;
     background: #E5E5E5;
     height: 5640px;}
-
-nav{
+header{
     display: flex;
-    position: relative;
-    left: 320px;
-    top: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around center;
+
+}
+nav{
+    padding-right: 350px;
+  
 }
 
 nav a{
@@ -46,21 +50,18 @@ button{
     border-color: #258AFF ;
     box-sizing: border-box;
     border-radius: 3px;
-  position: relative;
-  left: 950px;
-  top: 20px;
+    
+  
 }
 
 .logo{
- 
+ padding-left: 200px;
 height: 30px;
 font-family: 'Karla', sans-serif;
 font-size: 25px;
 line-height: 30px;
 color: #1F1F1F;
-position: relative;
-left: 216px;
-top: 20px;
+
 }
 .content-1{
     display: flex;
