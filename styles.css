@@ -138,8 +138,9 @@ padding-top: 15px;
 section{
     display: flex;
     flex-direction: row;
-padding-top: 250px;
-   
+padding-top: 180px;
+width: 100%;
+
 }
 section h4{
     font-family: 'Karla', sans-serif;
@@ -169,7 +170,7 @@ color: #666666;
     width: 100%;
     background-color: #258AFF;
     color: white;
-   
+   margin-top: 100px;
     
     
 }
