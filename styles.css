@@ -264,12 +264,11 @@ color: #666666;
 .list-4{
     width: 100%;
     height: 1078px;
-    padding-top: 160px;
 }
 .content-4{
     text-align: left;
  max-width: 315px;
  display: flex;
  flex-direction: column;
- margin: 0%;
+margin: 0 auto;
 }
