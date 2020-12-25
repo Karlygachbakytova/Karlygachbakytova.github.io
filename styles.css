@@ -210,6 +210,22 @@ color: #666666;
     line-height: 25px;
     color:#FFFFFF;
 }
+.btn-3{
+    height: 50px;
+    width: 150px;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.5px;
+    color: #258AFF;
+    border-color: #FFFFFF ;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+  
+}
 
 .phone{
     padding-left: 150px;
