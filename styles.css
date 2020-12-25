@@ -280,13 +280,25 @@ width: 300px;
 height: 250px;
 display: flex;
 text-align: left;
+justify-content: center;
+align-content: center;
+}
+.person{
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  text-align: left
+  ;
+ margin: auto;
+  
 }
 .desc{
     font-family:  'Rubik', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
-line-height: 32px;
+line-height: 32x;
 letter-spacing: -0.1px;
 color: #1F1F1F;
 width: 274px;
@@ -309,4 +321,8 @@ font-size: 15px;
 line-height: 28px;
 letter-spacing: -0.4px;
 color: #666666;
+}
+.picture-1{
+    width: 43px;
+    height: 43px;
 }
