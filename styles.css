@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;1,700&family=Rubik&display=swap');
 
 body{
     width: 100%;
@@ -271,4 +271,42 @@ color: #666666;
  display: flex;
  flex-direction: column;
 margin: 0 auto;
+}
+.information{
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
+border-radius: 5px;
+width: 300px;
+height: 250px;
+display: flex;
+text-align: left;
+}
+.desc{
+    font-family:  'Rubik', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 32px;
+letter-spacing: -0.1px;
+color: #1F1F1F;
+width: 274px;
+
+}
+h6{
+    font-family: 'Karla', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 28px;
+letter-spacing: -0.31875px;
+color: #1F1F1F;
+}
+.mainly{
+    font-family: 'Karla', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 28px;
+letter-spacing: -0.4px;
+color: #666666;
 }
