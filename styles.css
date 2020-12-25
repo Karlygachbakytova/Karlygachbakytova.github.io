@@ -327,7 +327,7 @@ margin: 0 ;
     padding-right: 300px;
 }
 .person{
-    max-width: 400px;
+
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 15px;
@@ -357,7 +357,7 @@ letter-spacing: -0.31875px;
 color: #1F1F1F;
 }
 .mainly{
-    font-family: 'Karla', sans-serif;
+font-family: 'Karla', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 15px;
@@ -369,6 +369,16 @@ color: #666666;
 .picture-1{
     width: 43px;
     height: 43px;
+}
+.content{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.cnt-1{
+    
+}
+.cnt-2{
+
 }
 
 
