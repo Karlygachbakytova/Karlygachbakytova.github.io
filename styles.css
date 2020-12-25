@@ -197,7 +197,6 @@ color: #666666;
     font-family: 'Karla', sans-serif;
 }
 .name-3{
-
     font-family: 'Karla', sans-serif;
     font-weight: 700;
     font-size: 35px;
@@ -232,6 +231,12 @@ color: #666666;
     float: left;
     height: 600px;
 }
+.list-3{
+    
+   height: 1078px;
+   padding-top: 100px;
+   padding-left: 150px;
+}
 
 .content-3{
   text-align: left;
@@ -264,7 +269,7 @@ color: #666666;
 }
 .corn{
   float: right; 
-  padding-right: 400px;
+  padding-right: 250px;
   height: 600px;
  padding-top: 10px;
 }
@@ -308,6 +313,7 @@ color: #666666;
  max-width: 315px;
  display: flex;
  flex-direction: column;
+ padding-top: 300px;
 margin: 0 auto;
 }
 .information{
