@@ -370,3 +370,29 @@ color: #666666;
     width: 43px;
     height: 43px;
 }
+.content-5{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  padding-top: 130px;
+  text-align: center;
+ margin: auto;
+  
+}
+.name-4{
+
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.text-7{
+    letter-spacing: 2.8125px;
+   font-weight: bold;
+   line-height: 9px;
+   color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
+}
