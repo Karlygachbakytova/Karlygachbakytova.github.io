@@ -11,14 +11,13 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: center ;
+    margin: 0 auto;
 }
 .logo-1{
     display: flex;
     flex-direction: row;
 }
-.list-1{
-    margin: 0 auto;
-}
+
 nav{
     display: flex;
     flex-direction: row;
@@ -33,7 +32,7 @@ nav a{
     text-decoration: none;
 }
 nav ul{
-    height: 19px;
+   
     list-style-type: none;
 }
 nav ul li{
@@ -42,7 +41,7 @@ nav ul li{
 
 .btn-1{
     height: 40px;
-    padding-top: 20px;
+  
     font-family: 'Karla', sans-serif;
     padding-left: 30px;
     padding-right: 30px;
@@ -77,6 +76,12 @@ color: #1F1F1F;
   text-align: center;
  margin: 0 auto;
   
+}
+.list-1-nav{
+display: flex;
+flex-direction: row;
+align-content: flex-start;
+margin: 0 auto;
 }
 .name-1{
 
@@ -143,6 +148,7 @@ margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 width: 100%;
 margin: 0 auto;
 }
@@ -158,16 +164,18 @@ color: #000000;
 }
 .page-1 p{
     font-family: 'Karla', sans-serif;
-font-style: normal;
-font-weight: normal;
 font-size: 17px;
 line-height: 28px;
 color: #666666;
+margin: 0 auto;
 
 }
 
 .down-1, .down-2, .down-3{
     width: 280px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
 }
 
 .list-2-1{
