@@ -1,21 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;1,700&family=Rubik&display=swap');
 
+
 body{
+
     width: 100%;
-    overflow-x:hidden;
     background: #E3EEF8;
     height: 5640px;}
 header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around center;
+    justify-content: center ;
+}
+.logo-1{
+    display: flex;
+    flex-direction: row;
 }
 .list-1{
-    padding-bottom: 100px;
+    margin: 0 auto;
 }
 nav{
-    padding-right: 350px;
+    display: flex;
+    flex-direction: row;
+   align-content: flex-start;
 }
 nav a{
     font-family: 'Karla', sans-serif;
@@ -67,9 +74,8 @@ color: #1F1F1F;
     display: flex;
     flex-direction: column;
   align-items: center;
-  padding-top: 130px;
   text-align: center;
- margin: auto;
+ margin: 0 auto;
   
 }
 .name-1{
@@ -131,14 +137,14 @@ line-height: 20px;
 text-align: center;
 letter-spacing: -0.32381px;
 color: #878B90;
-padding-top: 15px;
+margin: 0 auto;
 }
 .page-1{
     display: flex;
     flex-direction: row;
     justify-content: center;
-padding-top: 180px;
 width: 100%;
+margin: 0 auto;
 }
 
 .page-1 h4{
@@ -163,29 +169,30 @@ color: #666666;
 .down-1, .down-2, .down-3{
     width: 280px;
 }
-.shades{
-    padding-left: 250px;
-    
+
+.list-2-1{
+    height: 895px;
+    max-width: 1400px;
+    width: 100%;
 }
 
 .list-2{
     
-    height: 895px;
-    width: 100%;
+   
     background-color: #258AFF;
     color: white;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .content-2{
     text-align: left;
-   max-width: 480px;
    display: flex;
    flex-direction: column;
-   margin: 0%;
-   padding-left: 100px;
+  
   }
   .text-3{
     letter-spacing: 2.8125px;
@@ -207,6 +214,7 @@ color: #666666;
     font-size: 18px;
     line-height: 25px;
     color:#FFFFFF;
+    width: 480px;
 }
 .btn-3{
     height: 50px;
@@ -226,14 +234,17 @@ color: #666666;
 }
 
 .phone{
-    padding-left: 150px;
-    float: left;
+   
+   
     height: 700px;
 }
 .list-3{
-    padding-left: 150px;
+display: flex;
+flex-direction: row;
+align-content: center;
+justify-content:  space-evenly ;
    height: 1078px;
-   padding-top: 100px;
+   margin: 0 auto;
    
 }
 
@@ -242,7 +253,7 @@ color: #666666;
  max-width: 480px;
  display: flex;
  flex-direction: column;
- margin: 0%;
+
 }
 .name-3{
 
@@ -267,19 +278,17 @@ color: #666666;
     color: #666666;
 }
 .corn{
-  float: right; 
-  padding-right: 250px;
   height: 600px;
- padding-top: 10px;
+
 }
 .page-2{
     display: flex;
     flex-direction: row;
-padding-top: 130px;
-width: 100%;
-max-width: 443px;
 
+max-width: 443px;
+margin: 0 auto;
 }
+
 .page-2 h4{
     font-family: 'Karla', sans-serif;
 font-style: normal;
@@ -300,9 +309,7 @@ color: #666666;
 .icon2{
     width: 50px;
 }
-.icon, h4{
-    display: block;
-}
+
 .list-4{
     width: 100%;
     height: 1078px;
