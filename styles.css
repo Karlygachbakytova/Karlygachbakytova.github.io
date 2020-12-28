@@ -5,17 +5,20 @@ body{
 margin: 0px;
     width: 100%;
     background: #E3EEF8;
-    height: 5640px;}
+    }
+    .first-container{
+        height: 1000px;
+        flex-direction: column;
+        width: 100%;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
 header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center ;
-    margin: 0 auto;
-}
-.page1{
+    justify-content: space-evenly ;
    
-    margin: 0 auto;
 }
 
 .logo-1{
@@ -29,6 +32,7 @@ nav{
    align-content: flex-start;
    justify-content: space-between;
 }
+
 nav a{
     font-family: 'Karla', sans-serif;
     font-size: 16px;
@@ -36,9 +40,10 @@ nav a{
     color: #1F1F1F;
     font-weight: 400;
     text-decoration: none;
+    
 }
 nav ul{
-   
+  
     list-style-type: none;
 }
 nav ul li{
@@ -192,7 +197,9 @@ padding-right: 15px;
 padding-bottom: 33px;
 
 }
-
+.page-1{
+margin: 0 auto;
+}
 .list-2-1{
     height: 895px;
     max-width: 1400px;
@@ -474,18 +481,18 @@ flex-direction: column;
 .cards{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-content: center;
     margin: 0 auto;
 }
 .card-1{
-    width: 300px;
+    width: 350px;
     background: #2B405A;
 border-radius: 6px;
 
 }
 .card-2{
-    width: 300px;
+    width: 350px;
     background: #FFFFFF;
 border-radius: 6px;
 }
@@ -643,4 +650,14 @@ font-size: 14px;
 line-height: 28px;
 letter-spacing: -0.4px;
 color: #666666;
+}
+.card-2-text-23{
+    display: flex;
+    flex-direction: row;
+    
+}
+footer{
+    width: 100%;
+    height: 517px;
+    background-color: #E5E5E5;
 }
