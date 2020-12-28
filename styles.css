@@ -487,3 +487,103 @@ border-radius: 6px;
     background: #FFFFFF;
 border-radius: 6px;
 }
+.text-a1{
+    font-family: 'Karla', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 32px;
+text-transform: uppercase;
+color: #E5E5E5;
+}
+.text-b1{
+    font-family: 'Karla', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 32px;
+text-transform: uppercase;
+color: #666666;
+}
+.text-a2{
+    font-family: 'Karla', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 60px;
+letter-spacing: -2px;
+color: #FFFFFF;
+}
+.text-b2{
+    font-family: 'Karla', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 60px;
+letter-spacing: -2px;
+color: #1F1F1F;
+}
+.text-a3{
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.68px;
+    color: #FFFFFF;
+}
+.text-b3{
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.68px;
+    color: #1F1F1F;
+}
+.text-a4{
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 32px;
+letter-spacing: -0.425px;
+    color: #E5E5E5;
+}
+.text-b4{
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 32px;
+letter-spacing: -0.425px;
+color: #1F1F1F;
+}
+.card-1-text{
+    font-family: 'Karla', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 32px;
+letter-spacing: -0.425px;
+color: #FFFFFF;
+}
+.card-2-text{
+    font-family: 'Karla', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 32px;
+letter-spacing: -0.425px;
+color: #1F1F1F;
+}
+.card-1-text-2{
+    font-family: 'Karla', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 32px;
+letter-spacing: -0.425px;
+color: #878B90;
+text-decoration: line-through;
+}
