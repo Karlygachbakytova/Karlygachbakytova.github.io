@@ -474,13 +474,15 @@ flex-direction: column;
 .cards{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
+    margin: 0 auto;
 }
 .card-1{
     width: 300px;
     background: #2B405A;
 border-radius: 6px;
+
 }
 .card-2{
     width: 300px;
@@ -586,4 +588,59 @@ line-height: 32px;
 letter-spacing: -0.425px;
 color: #878B90;
 text-decoration: line-through;
+}
+.btn-4{
+    height: 50px;
+    width: 190px;
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+justify-content: center;
+letter-spacing: -1.06px;
+color: #FFFFFF;
+    box-sizing: border-box;
+    background: #258AFF;
+border-radius: 5px #258AFF ;
+  
+}
+.btn-5{
+    height: 50px;
+    width: 190px;
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -1.06px;
+color: #FFFFFF;
+    box-sizing: border-box;
+    background: #FC593B;
+border-radius: 5px #FC593B;
+display: flex;
+align-items: center;
+justify-content: center;} 
+.text-a8{
+    font-family: 'Karla', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 28px;
+letter-spacing: -0.4px;
+color: #878B90;
+}
+.text-b8{
+    font-family: 'Karla', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 28px;
+letter-spacing: -0.4px;
+color: #666666;
 }
