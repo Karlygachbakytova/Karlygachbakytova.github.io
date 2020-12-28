@@ -665,13 +665,38 @@ footer{
     width: 100%;
     height: 520px;
     background-color: #E5E5E5;
+    margin: 0 auto;
 }
 .footer-main{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+   
 }
 
 .footer-main-1{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.list-6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.list-6-nav{
+font-family: 'Karla', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: -0.4px;
+color: #666666;
+}
+.list-1-nav{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
 }
