@@ -356,6 +356,7 @@ text-align: left;
     background-color: #FFFFFF;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
     border-radius: 5px;
+    padding: 20px;
 }
 .desc{
     display: flex;
@@ -391,7 +392,7 @@ color: #666666;
 }
 .content{
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: row;
 }
 .cnt-1{
     
@@ -399,11 +400,22 @@ color: #666666;
 .cnt-2{
 
 }
-
+.list-4-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}
 .list-4-logos{
     height: 37px;
     display: flex;
-    flex-direction: row-;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.modlogo{
+    width: 125px;
 }
 .list-4-container{
     display: flex;
