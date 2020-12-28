@@ -666,3 +666,12 @@ footer{
     height: 520px;
     background-color: #E5E5E5;
 }
+.footer-main{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-main-1{
+    display: flex;
+    flex-direction: column;
+}
