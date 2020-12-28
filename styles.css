@@ -348,6 +348,7 @@ color: #666666;
 .list-4{
     width: 100%;
     height: 1078px;
+    margin: 0 auto;
 }
 .content-4{
 text-align: left;
@@ -433,7 +434,11 @@ flex-direction: column;
 }
 .list-4-logos{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+   mix-blend-mode: luminosity;
+    margin: 0 auto;
    
 }
 .modlogo{
@@ -658,6 +663,6 @@ color: #666666;
 }
 footer{
     width: 100%;
-    height: 517px;
+    height: 520px;
     background-color: #E5E5E5;
 }
