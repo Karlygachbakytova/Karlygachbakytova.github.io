@@ -13,23 +13,32 @@ margin: 0px;
         max-width: 1400px;
       
     }
+    .list-1{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-evenly;
+
+
+    }
+    .shades{
+        width: 21px;
+        height: 13px;
+    }
+    nav{
+       display: flex;
+       justify-content: space-between;
+    }
+    
 header{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly ;
+    justify-content: space-around; 
 }
 
 .logo-1{
     display: flex;
     flex-direction: row;
-}
-
-nav{
-    display: flex;
-    flex-direction: row;
-   align-content: flex-start;
-   justify-content: space-between;
 }
 
 nav a{
@@ -90,8 +99,7 @@ color: #1F1F1F;
 .list-1-nav{
 display: flex;
 flex-direction:row;
-align-content: flex-start;
-;
+
 }
 .name-1{
 
