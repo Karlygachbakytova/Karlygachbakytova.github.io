@@ -684,25 +684,30 @@ footer{
     background-color: #E5E5E5;
     display: flex;
     justify-content: space-around;
+    
 }
 .footer-main{
     display: flex;
-    flex-direction: row;
-    align-content: space-around;
+    justify-content: space-around;
    
 }
 
 .footer-main-1{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    font-family: 'Karla', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: -0.4px;
+color: #666666;
 }
 .list-6{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
 }
 .list-7-nav{
 font-family: 'Karla', sans-serif;
@@ -714,7 +719,14 @@ letter-spacing: -0.4px;
 color: #666666;
 }
 .list-7-nav{
-    display: flex;
-    flex-direction: column;
     width: 300px;
+}
+.secondary{
+    font-family: 'Karla', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 40px;
+letter-spacing: -0.4px;
+color: #1F1F1F;
 }
