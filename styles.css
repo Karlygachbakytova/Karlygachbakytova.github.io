@@ -11,6 +11,7 @@ margin: 0px;
         flex-direction: column;
         width: 100%;
         max-width: 1400px;
+        margin: 0 auto;
       
     }
     .list-1{
@@ -23,8 +24,9 @@ margin: 0px;
     }
     .shades{
         width: 21px;
-        height: 13px;
+        height: 23px;
     }
+
     nav{
        display: flex;
        justify-content: space-between;
@@ -34,11 +36,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around; 
-}
-
-.logo-1{
-    display: flex;
-    flex-direction: row;
+    padding-top: 40px;
 }
 
 nav a{
@@ -53,6 +51,8 @@ nav a{
 nav ul{
   
     list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
 nav ul li{
     display: inline;
@@ -60,13 +60,11 @@ nav ul li{
 
 .btn-1{
     height: 40px;
-  
     font-family: 'Karla', sans-serif;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 1px;
     padding-bottom: 1px;
-    font-family: 'Karla', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 18.5px;
@@ -74,18 +72,20 @@ nav ul li{
     border-color: #258AFF ;
     box-sizing: border-box;
     border-radius: 3px;
-    
-  
 }
 
 .logo{
-
+margin: 0px;
 height: 30px;
 font-family: 'Karla', sans-serif;
 font-size: 25px;
 line-height: 30px;
 color: #1F1F1F;
 
+}
+.logo-1{
+display: flex;
+flex-direction: row;
 }
 .content-1{
     width: 540px;
@@ -94,15 +94,14 @@ color: #1F1F1F;
   align-items: center;
   text-align: center;
  margin: 0 auto;
-  
 }
 .list-1-nav{
 display: flex;
 flex-direction:row;
+justify-content: space-evenly;
 
 }
 .name-1{
-
     font-family: 'Karla', sans-serif;
     font-weight: 700;
     font-size: 55px;
@@ -267,9 +266,9 @@ padding-bottom: 50px;
   
 }
 
+
 .phone{
-   
-   
+
     height: 700px;
 }
 .list-3{
@@ -606,6 +605,7 @@ line-height: 32px;
 letter-spacing: -0.425px;
 color: #878B90;
 text-decoration: line-through;
+
 }
 .btn-4{
     height: 50px;
