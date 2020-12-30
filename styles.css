@@ -272,7 +272,6 @@ padding-bottom: 50px;
 
 
 .phone{
-
     height: 700px;
 }
 .list-3{
@@ -281,14 +280,17 @@ flex-direction: row;
 align-content: center;
 justify-content:  space-evenly ;
    height: 800px;
-
+}
+.list-3-img{
+  padding-top: 90px;
+    height: 600px;
    
 }
-
 .content-3{
   text-align: left;
  max-width: 480px;
  display: flex;
+ flex-direction: row;
 align-content: center;
 justify-content: center;
 
@@ -315,13 +317,10 @@ justify-content: center;
     line-height: 25px;
     color: #666666;
 }
-.content-3-descr{
-   
-}
 .descr-0{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
    
 }
 .corn{
@@ -475,16 +474,12 @@ flex-direction: column;
     flex-direction: row;
     justify-content: center;
     align-content: center;
-   
 }
 .list-4-logos{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
    mix-blend-mode: luminosity;
-    margin: 0 auto;
-   
 }
 .modlogo{
     width: 125px;
@@ -493,7 +488,6 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
 }
-
 .list-5{ 
     background-image: url(./img/rectacle.png);
     background-size: 100%;
@@ -723,7 +717,8 @@ footer{
     height: 450px;
     background-color: #E5E5E5;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-evenly;
     
 }
 .footer-main{
@@ -747,7 +742,7 @@ color: #666666;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .list-7-nav{
 font-family: 'Karla', sans-serif;
@@ -758,8 +753,9 @@ line-height: 28px;
 letter-spacing: -0.4px;
 color: #666666;
 }
-.list-7-nav{
+.list-8-nav{
     width: 300px;
+
 }
 .secondary{
     font-family: 'Karla', sans-serif;
