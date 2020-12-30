@@ -7,7 +7,7 @@ margin: 0px;
     background: #E3EEF8;
     }
     .first-container{
-        height: 900px;
+        height: 1000px;
         width: 100%;
         max-width: 1400px;
         display: flex;
@@ -376,7 +376,7 @@ text-align: left;
 .list-4-container{
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content:space-around;
     align-content: center;
 
 }
@@ -388,7 +388,7 @@ text-align: left;
     text-align: left;
 }
 .person{
-    
+    margin-right: 15px;
     margin-bottom: 15px;
     margin-left: 15px;
     background-color: #FFFFFF;
@@ -397,6 +397,8 @@ text-align: left;
     padding: 20px;
 }
 .person-3{
+    margin-bottom: 15px;
+    margin-right: 15px;
     margin-top: 15px;
     margin-left: 15px;
     background-color: #FFFFFF;
@@ -406,6 +408,8 @@ text-align: left;
 }
 .person-2{
     height: 200px;
+  
+    margin-right: 15px;
 margin-left: 15px;
 background-color: #FFFFFF;
 box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
@@ -416,7 +420,7 @@ padding: 20px;
     height: 230px;
     margin-top: -15px;
     margin-left: 15px;
-   
+   margin-right: 15px;
     background-color: #FFFFFF;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
     border-radius: 5px;
@@ -798,6 +802,60 @@ height: 20px;
     padding-top: 2px;
 
 }
+@media(max-width:1085px){
+    .list-4-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+}
+.content-4{
+    display: flex;
+    justify-content: center;
+   
+    text-align:center;
+     width: 500px;
+     margin: 0 auto;
+    }
+    
 @media(max-width:965px){
+    .list-1-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        }
+ header{
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            align-content: center;
+            padding-top: 40px;
+        }
+ .logo-1{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
 
+            padding-right: 20px;
+            }
+ .list-1-btn{
+                display: flex;
+                justify-content: center;
+                padding-top: 10px;
+            }
+ .page-1{
+                display: flex;
+                flex-direction: column;
+               justify-content: center;
+                align-content: center;
+            }
+ .content-1{
+                padding-top: 50px;
+                padding-right: 50px;
+            }
+ .down-1, .down-2, .down-3{
+    width: 380px;
+    
+   
+}
 }
