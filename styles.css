@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;1,700&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:ital,wght@0,400;1,700&family=Rubik&display=swap');
 
 
 body{
@@ -19,6 +19,7 @@ margin: 0px;
     flex-direction: row;
     align-content: space-around;
     justify-content: space-evenly;
+    margin: 0 auto;
 
 
     }
@@ -29,7 +30,8 @@ margin: 0px;
 
     nav{
        display: flex;
-       justify-content: space-between;
+       justify-content: space-around;
+       padding-top: 8px;
     }
     
 header{
@@ -729,4 +731,27 @@ font-size: 15px;
 line-height: 40px;
 letter-spacing: -0.4px;
 color: #1F1F1F;
+}
+.card-2-text-b{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text-b{
+    background: #4EAB08;
+border-radius: 13px;
+border: #4EAB08 solid;
+width: 83px;
+height: 20px;
+    font-family:'Inter', sans-serif;;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.514286px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 2px;
+
 }
