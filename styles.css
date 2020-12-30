@@ -96,6 +96,7 @@ flex-direction: row;
 padding-right: 20px;
 }
 .content-1{
+    padding-right: 0px;
     width: 540px;
     display: flex;
     flex-direction: column;
@@ -209,12 +210,6 @@ padding-right: 15px;
 padding-bottom: 50px;
 
 }
-.list-2-1{
-    height: 895px;
-    max-width: 1400px;
-    width: 100%;
-}
-
 .list-2{
     
    
@@ -275,14 +270,14 @@ padding-bottom: 50px;
 
 
 .phone{
-    height: 700px;
+    height: 600px;
 }
 .list-3{
 display: flex;
 flex-direction: row;
 align-content: center;
 justify-content:  space-evenly ;
-   height: 800px;
+   height: 700px;
 }
 .list-3-img{
   padding-top: 90px;
@@ -333,7 +328,7 @@ justify-content: center;
 .page-2{
     display: flex;
 max-width: 443px;
-margin: 0 auto;
+
 }
 
 .page-2 h4{
@@ -851,7 +846,7 @@ height: 20px;
             }
  .content-1{
                 padding-top: 50px;
-                padding-right: 50px;
+                
             }
  .down-1, .down-2, .down-3{
     width: 380px;
@@ -859,3 +854,125 @@ height: 20px;
    
 }
 }
+
+@media(max-width:898px){
+    
+
+    .text-4{
+        width: 300px;
+    }
+    .list-3{
+        
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content:  center ;
+           height: 600px;
+           margin: 0 auto;
+        }
+        .list-3-img{
+         
+            height: 400px;
+           
+        }
+        .content-3{
+          text-align: left;
+         max-width: 480px;
+         display: flex;
+         flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        
+        }
+        .corn{
+            height: 400px;
+          
+          }
+        
+}
+@media(max-width:757px){
+    .list-2{
+        height: 1200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+    }
+    .content-2{
+        text-align: center;
+       display: flex;
+       flex-direction: column;
+       max-width: 380px;
+      
+}
+.text-4{
+   
+    width: 380px;
+}
+.btn-3{
+    height: 50px;
+    width: 150px;
+    margin: 0 auto;
+}
+.list-3{
+    
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content:  center ;
+       height: 1000px;
+    }
+    .list-3-img{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      }
+      .content-3{
+        text-align: center;
+       max-width: 380px;
+       
+      margin: 0 auto;
+      
+      }
+      .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin: 0 auto;
+    }
+    .list-4{
+        width: 100%;
+        height: 1600px;
+       display: flex;
+       justify-content: center;
+       align-content: center;
+       margin: 0 auto;
+    }
+    .content-4{
+    text-align: left;
+     width: 315px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-content: center;
+    }
+    .information{
+        max-width: 700px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: left;
+        margin: 0;
+    }
+    .list-5{ 
+     
+        height:  1506px;
+        
+    }
+    .content-5{
+        width: 380px;
+margin: 0 auto;
+    }
+}  
